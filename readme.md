@@ -1,3 +1,3 @@
-[ronin]('./ronin.jpg')
+![ronin]('http://ronin.jpg')
 
 Bushido Starter

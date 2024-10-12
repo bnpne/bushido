@@ -1,2 +1,2 @@
-![ronin](https://./ronin.jpg)
+![ronin](https://ronin.jpg)
 Bushido Starter

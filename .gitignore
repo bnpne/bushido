@@ -1,0 +1,19 @@
+# Mac files
+.DS_Store
+
+# Dependency directories
+node_modules
+
+# editor config
+.editorconfig
+
+# VS Code
+*.code-workspace
+
+# Local Netlify folder
+.netlify
+
+*.env
+.env
+.env.*
+.env.local

@@ -1,10 +1,21 @@
 <script setup>
-console.log("home");
+import { homeQuery } from "@/queries/contentQueries";
+
+// get data
+const mainStore = useMainStore();
+const data = await useSanityData({
+  query: homeQuery,
+});
+
+// meta
+usePageHead({
+  title: "",
+});
 </script>
 
 <template>
   <div id="page">
-    <h1>Hello</h1>
+    <div v-if="data"></div>
   </div>
 </template>
 

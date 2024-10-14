@@ -1,4 +1,5 @@
 import { defineStore } from "pinia";
+import { siteQuery } from "@/queries/contentQueries";
 
 export const useMainStore = defineStore("main", {
   state: () => {

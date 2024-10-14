@@ -12,7 +12,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      BASE_URL: process.env.BASE_URL,
+      BASE_URL: process.env.NUXT_BASE_URL,
     },
   },
 
@@ -21,7 +21,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/sanity", "@nuxtjs/device", "@pinia/nuxt"],
 
   sanity: {
-    projectId: process.env.SANITY_STUDIO_PROJECT_ID,
+    projectId: "f1w91lhf",
     dataset: "production",
     apiVersion: "2022-04-26",
     useCdn: false,
